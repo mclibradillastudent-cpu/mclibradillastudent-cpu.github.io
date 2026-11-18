@@ -1,0 +1,57 @@
+
+/* General page design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* About section */
+.about {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Profile picture */
+.about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Other sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #6c63ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
