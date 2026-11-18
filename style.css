@@ -1,6 +1,6 @@
+
 /* General page design */
-body 
-{
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -10,8 +10,7 @@ body
 }
 
 /* Header */
-header 
-{
+header {
     background-color: #6c63ff;
     color: white;
     text-align: center;
@@ -20,8 +19,7 @@ header
 }
 
 /* About section */
-.about 
-{
+.about {
     background-color: white;
     padding: 25px;
     margin: 20px auto;
@@ -31,11 +29,12 @@ header
 }
 
 /* Profile picture */
-.about img 
-{
+.about .profile-photo {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 80px !important;
+    height: 80px !important;
+    max-width: 80px;
+    max-height: 80px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
@@ -43,8 +42,7 @@ header
 }
 
 /* Other sections */
-section 
-{
+section {
     background-color: white;
     padding: 20px;
     margin: 20px auto;
@@ -58,8 +56,7 @@ a {
 }
 
 /* Footer */
-footer 
-{
+footer {
     text-align: center;
     padding: 20px;
 }
