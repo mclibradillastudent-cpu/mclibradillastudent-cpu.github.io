@@ -1,6 +1,7 @@
 
 /* General page design */
-body {
+body 
+{
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -10,7 +11,8 @@ body {
 }
 
 /* Header */
-header {
+header 
+{
     background-color: #6c63ff;
     color: white;
     text-align: center;
@@ -19,7 +21,8 @@ header {
 }
 
 /* About section */
-.about {
+.about 
+{
     background-color: white;
     padding: 25px;
     margin: 20px auto;
@@ -29,7 +32,12 @@ header {
 }
 
 /* Profile picture */
+<<<<<<< HEAD
 .about img {
+=======
+.about img 
+{
+>>>>>>> 980f6e92a74fa26e1dc25a7946832259425d4284
     display: block;
     width: 180px;
     height: 180px;
@@ -39,7 +47,8 @@ header {
 }
 
 /* Other sections */
-section {
+section 
+{
     background-color: white;
     padding: 20px;
     margin: 20px auto;
@@ -53,7 +62,8 @@ a {
 }
 
 /* Footer */
-footer {
+footer 
+{
     text-align: center;
     padding: 20px;
 }
