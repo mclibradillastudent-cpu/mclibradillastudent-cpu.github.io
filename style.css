@@ -31,13 +31,8 @@ header
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Profile picture */
-<<<<<<< HEAD
-.about img {
-=======
-.about img 
+/* Profile picture */ 
 {
->>>>>>> 980f6e92a74fa26e1dc25a7946832259425d4284
     display: block;
     width: 180px;
     height: 180px;
